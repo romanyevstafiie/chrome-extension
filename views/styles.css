@@ -1,0 +1,42 @@
+HTML,
+BODY {
+  width: 200px;
+}
+
+INPUT {
+  border-radius: 4px;
+  border: 1px solid rgb(235, 235, 235);
+  color: rgb(124, 135, 157);
+  padding: 10px 12px;
+  width: calc(100% - 40px);
+  margin-bottom: 10px;
+}
+
+BUTTON {
+  color: #fff;
+  background: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: 1px solid;
+  outline: 0;
+}
+
+.error {
+  margin-bottom: 10px;
+  display: none;
+  text-transform: uppercase;
+  color: rgb(240, 112, 114);
+  font-size: smaller;
+}
+
+#user {
+  margin-bottom: 20px;
+}
+
+#app {
+  padding-right: 10px;
+}
